@@ -1,3 +1,6 @@
+// Arquivo criado para estudo de conceitos C++ Moderno
+// Referencias podem ser encontradas em 
+
 #include <iostream>
 #include <typeindex>
 
