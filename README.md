@@ -1,5 +1,4 @@
-# ESTUDO1
-# *************************************************************
+## *************************************************************
 ## Primeiro projeto criado para estudo de conceitos C++ Moderno
 ## Autor - Glauco
 ## Baseado em codigo de Mr. Grilo
