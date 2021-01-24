@@ -16,5 +16,5 @@
 ## https://isocpp.org/blog/2015/09/bjarne-stroustrup-announces-cpp-core-guidelines
 ## https://en.cppreference.com/w/
 ## *****************************************************************************
-## Glauco gosta desse link
+## Recomendamos este link para conceitos basicos de prog. em C++
 ## https://www.learncpp.com/
