@@ -22,16 +22,16 @@
 #include <typeindex>
 #include <typeinfo>
 
-int double_age(int age) {
-    return 2*age;
+int double_age(int age) {  // funcoes - passando argumento por valor
+    return 2*age;          // Vide Cap. 10.2 do learncpp
 }
 
-void double_age_inplace_ptr(int* age) {
-    *age = 2 * (*age);
+void double_age_inplace_ptr(int* age) {  // funcoes - passando argumento por endereco
+    *age = 2 * (*age);                   // Vide Cap. 10.3 do learncpp
 }
 
-void double_age_inplace_ref(int& age) {
-    age = 2 * age;
+void double_age_inplace_ref(int& age) {  // funcoes - passando argumento por referencia
+    age = 2 * age;                       // Vide Cap. 10.3 do learncpp
 }
 
 int main(int argc, char* argv[]) {
@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
     age = 0b10; // binário
     
     age = 0x19; // hexadecimal
-    
+    std::cout << "Insert value for your age:" << age << std::endl;
     std::cin >> age;
     
     std::cout << "age é: " << age << std::endl;
@@ -133,6 +133,7 @@ int main(int argc, char* argv[]) {
     std::cout << "o primeiro elemento de array é " << array[0] << std::endl;
     std::cout << "o último elemento de array é " << array[9] << std::endl;
     
+    // For loop tradicional  "raiz"
     for(int i = 0; i < 10; i++) {
         std::cout << array[i] << " ";
     }
@@ -141,6 +142,8 @@ int main(int argc, char* argv[]) {
     
     array[3] = 9;
     
+    // Range-based for loop (since C++11)
+    // https://en.cppreference.com/w/cpp/language/range-for
     for(int& i : array) {
         i = i*i;
         array[4] = -5;
