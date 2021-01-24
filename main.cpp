@@ -20,6 +20,7 @@
 
 #include <iostream>
 #include <typeindex>
+#include <typeinfo>
 
 int double_age(int age) {
     return 2*age;
@@ -36,9 +37,9 @@ void double_age_inplace_ref(int& age) {
 int main(int argc, char* argv[]) {
 
     int age = 0; // 32bits // este igual NÃO É ATRIBUIÇÃO
-    
+                           // Chamado "copy initialization"
+                           // Vide Cap. 1.4 do learncpp
     //int age;
-    
     //age = 0; // aqui o igual é atribuição (assignment)
     
     age = 0b10; // binário

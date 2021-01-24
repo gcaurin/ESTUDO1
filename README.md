@@ -1,9 +1,10 @@
 # ESTUDO1
-# ****************************************************************************
+# *************************************************************
 ## Primeiro projeto criado para estudo de conceitos C++ Moderno
 ## Autor - Glauco
 ## Baseado em codigo de Mr. Grilo
-## Data - Janeiro de 2021
+## Criadp em   :- Janeiro de 2021
+## Alterado em :-
 ## ****************************************************************************
 ## Inspiracoes e referencias podem ser encontradas em 
 #
